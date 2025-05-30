@@ -16,17 +16,17 @@ export default function Jeukheung() {
 
      <div className="cursor-none relative min-h-screen bg-gradient-to-b from-white to-pink-50 text-gray-800 px-6 py-12 overflow-hidden">
       {/* 케이크 따라다니는 이미지 */}
-    <img
-    src="/cakes/cursor.png"
-    alt="cake-cursor"
-    className="pointer-events-none fixed z-50 transition-transform duration-75 hidden md:block w-8 h-8 md:w-10 md:h-10"
-    style={{
-        top: position.y,
-        left: position.x,
-        transform: "translate(-50%, -50%)",
-        position: "fixed",
-    }}
-    />
+      <img
+        src="/cakes/cursor.png"
+        alt="cake-cursor"
+        className="pointer-events-none fixed z-50 transition-transform duration-75"
+        style={{
+          top: position.y,
+          left: position.x,
+          transform: "translate(-50%, -50%)",
+          position: "fixed",
+        }}
+      />
 
         <div className="min-h-screen bg-gradient-to-b from-white to-pink-50 text-gray-800 px-6 py-12">
         <div className="max-w-4xl mx-auto text-center">
